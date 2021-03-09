@@ -281,10 +281,10 @@ config_caddy_docker_cloudflare(){
     # Set caddy cloudflare ddns key
     echo "caddy cloudflare ddns key"
     read -p "(No default ):" cloudflare_key
-    [ -z "${cloudflare_email}" ]
+    [ -z "${cloudflare_key}" ]
     echo
     echo "---------------------------"
-    echo "cloudflare_email = ${cloudflare_key}"
+    echo "cloudflare_key = ${cloudflare_key}"
     echo "---------------------------"
     echo
     echo
